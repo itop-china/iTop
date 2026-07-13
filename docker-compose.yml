@@ -1,0 +1,10 @@
+services:
+  itop:
+    image: vbkunin/itop:3.2.2
+    container_name: itop
+    ports:
+      - "8000:80"
+      - "3306:3306"
+    volumes:
+      - .:/var/www/html
+      - ./mysql:/var/lib/mysql

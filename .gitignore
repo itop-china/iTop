@@ -35,6 +35,9 @@ tests/*/vendor/*
 !/data/exclude.txt
 !/data/.compilation-symlinks
 
+# Local MySQL data
+/mysql/
+
 # iTop extensions
 /extensions/**
 !/extensions/.htaccess
@@ -165,4 +168,3 @@ local.properties
 
 # Windows
 Thumbs.db
-
